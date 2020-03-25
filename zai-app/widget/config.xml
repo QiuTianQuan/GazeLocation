@@ -1,0 +1,69 @@
+ <widget id="A6030690602314"  version="0.0.1">
+
+    <name>盯位</name>
+
+    <description>盯位</description>
+
+    <author email="developer@mianbx.com" href="https://mianbx.com">盯位</author>
+
+    <content src="html/index.html?url=home" />
+
+    <access origin="*" />
+
+    <preference name="pageBounce" value="false"/>
+
+	<preference name="appBackground" value="rgba(0,0,0,0.0)"/>
+
+	<preference name="windowBackground" value="rgba(255,255,255,1)"/>
+
+	<preference name="frameBackgroundColor" value="rgba(0,0,0,0.0)"/>
+
+	<preference name="hScrollBarEnabled" value="true"/>
+
+	<preference name="vScrollBarEnabled" value="true"/>
+
+	<preference name="autoLaunch" value="true"/>
+
+	<preference name="fullScreen" value="false"/>
+
+	<preference name="autoUpdate" value="true" />
+
+	<preference name="smartUpdate" value="true" />
+
+	<preference name="debug" value="true"/>
+
+	<preference name="statusBarAppearance" value="true"/>
+
+	<permission name="readPhoneState" />
+
+	<permission name="camera" />
+
+	<permission name="record" />
+
+	<permission name="location" />
+
+	<permission name="fileSystem" />
+
+	<permission name="internet" />
+
+	<permission name="bootCompleted" />
+
+	<permission name="hardware" />
+
+	<preference name="querySchemes" value="weixin,sinaweibo" />
+
+	<preference name="backgroundMode" value="location"/>
+
+	 <feature name="aMap">
+		 <param name="android_api_key" value="cef24fa3949f9c481dab4edb71af18da" />
+		 <param name="ios_api_key" value="9f765ada5ce8e24750eefaad02059c91" />
+	 </feature>
+
+    <feature name="wx">
+        <param name="urlScheme" value="wxcfcd67a483419e66"/>
+        <param name="apiKey" value="wxcfcd67a483419e66"/>
+        <param name="apiSecret" value="wxcfcd67a483419e66"/>
+    </feature>
+
+</widget>
+
